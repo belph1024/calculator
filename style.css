@@ -1,8 +1,8 @@
 /* テーブルの装飾 */
 table {
   /* 電卓のサイズ */
-  width: 300px;
-  height: 400px;
+  width: 450px;
+  height: 600px;
   /* 電卓が浮き出るように影を付ける */
   border: solid 1px #dcdcdca4;
   border-right: solid 4px #dcdcdca4;
@@ -17,8 +17,8 @@ table {
 
 input {
   /* ボタンのサイズ */
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   /* ボタンの文字サイズ */
   font-size: x-large;
   /* 数字部分の背景色 */
@@ -34,7 +34,7 @@ input {
 
 /* ディスプレイの詳細設定 */
 .display {
-  width: 250px;
+  width: 350px;
   text-align: right; /* 文字を右詰めに */
   /* 見た目の詳細設定 */
   background: #ffffff;
