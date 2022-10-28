@@ -1,6 +1,6 @@
 let calculated = false;
 
-function get_calc(btn) {
+function getCalculate(btn) {
     let variable = btn.value;
     if(btn.value == "=") {
         document.calculator.display.value = Function(document.calculator.display.value);

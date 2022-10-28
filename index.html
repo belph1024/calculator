@@ -9,43 +9,43 @@
 <body>
   <form name="calculator">
     <table>
-      <!-- 液晶画面部分 -->
+      <!-- display -->
       <tr>
         <td colspan="4">
           <input type="text" class="display" name="display" value="" disabled>
         </td>
       </tr>
  
-      <!-- 上から1段目（7~9＋÷） -->
+      <!-- 1st row（7~9＋÷） -->
       <tr>
-        <td><input type="button" value="7" onclick="get_calc(this)"></td>
-        <td><input type="button" value="8" onclick="get_calc(this)"></td>
-        <td><input type="button" value="9" onclick="get_calc(this)"></td>
-        <td><input type="button" value="÷" class="operator" name="div_btn" onclick="get_calc(this)"></td>
+        <td><input type="button" value="7" onclick="getCalculate(this)"></td>
+        <td><input type="button" value="8" onclick="getCalculate(this)"></td>
+        <td><input type="button" value="9" onclick="getCalculate(this)"></td>
+        <td><input type="button" value="÷" class="operator" name="div_btn" onclick="getCalculate(this)"></td>
       </tr>
         
-      <!-- 上から2段目（4~6＋×） -->
+      <!-- 2nd row（4~6＋×） -->
       <tr>
-        <td><input type="button" value="4" onclick="get_calc(this)"></td>
-        <td><input type="button" value="5" onclick="get_calc(this)"></td>
-        <td><input type="button" value="6" onclick="get_calc(this)"></td>
-        <td><input type="button" value="×" class="operator" name="multi_btn" onclick="get_calc(this)"></td>
+        <td><input type="button" value="4" onclick="getCalculate(this)"></td>
+        <td><input type="button" value="5" onclick="getCalculate(this)"></td>
+        <td><input type="button" value="6" onclick="getCalculate(this)"></td>
+        <td><input type="button" value="×" class="operator" name="multi_btn" onclick="getCalculate(this)"></td>
       </tr>
  
-      <!-- 上から3段目（1~3＋-） -->
+      <!-- 3rd row（1~3＋-） -->
       <tr>
-        <td><input type="button" value="1" onclick="get_calc(this)"></td>
-        <td><input type="button" value="2" onclick="get_calc(this)"></td>
-        <td><input type="button" value="3" onclick="get_calc(this)"></td>
-        <td><input type="button" value="-" class="operator" onclick="get_calc(this)"></td>
+        <td><input type="button" value="1" onclick="getCalculate(this)"></td>
+        <td><input type="button" value="2" onclick="getCalculate(this)"></td>
+        <td><input type="button" value="3" onclick="getCalculate(this)"></td>
+        <td><input type="button" value="-" class="operator" onclick="getCalculate(this)"></td>
       </tr>
  
-      <!-- 上から4段目（0/C/=/+) -->
+      <!-- 4th row（0/C/=/+) -->
       <tr>
-        <td><input type="button" value="0" onclick="get_calc(this)"></td>
-        <td><input type="button" value="C" class="clear" onclick="get_calc(this)"></td>
-        <td><input type="button" value="=" class="equal" onclick="get_calc(this)"></td>
-        <td><input type="button" value="+" class="operator" onclick="get_calc(this)"></td>
+        <td><input type="button" value="0" onclick="getCalculate(this)"></td>
+        <td><input type="button" value="C" class="clear" onclick="getCalculate(this)"></td>
+        <td><input type="button" value="=" class="equal" onclick="getCalculate(this)"></td>
+        <td><input type="button" value="+" class="operator" onclick="getCalculate(this)"></td>
       </tr>
  
     </table>
