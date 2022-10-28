@@ -25,9 +25,11 @@ input {
   background-color: #dcdcdca4;
   /* ボタンの詳細設定 */
   border: none;
-  border-radius: 20px;
+  border-radius: 5px;
   /* クリック時の黒枠を消す */
   outline: none;
+  /* ボタン上ではカーソルを指マークに変更 */
+  cursor:pointer;
 }
 
 /* ディスプレイの詳細設定 */
