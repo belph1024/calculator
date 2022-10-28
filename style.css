@@ -53,6 +53,10 @@ input {
   background-color: #b6b6b6;
 }
 
+.clear {
+  background-color: #fa8787;
+}
+
 /* カーソルを上に乗せた時に色を濃くする */
 input:hover {
   background: #747373b9;
@@ -63,6 +67,9 @@ input:hover {
 .operator:hover {
   background: #339cdd;
 }
+.clear:hover {
+  background: #dd3333
+}
 
 /* クリック時に色を濃くする */
 input:active {
@@ -70,4 +77,7 @@ input:active {
 }
 .operator:active {
   background: #2c80b4;
+}
+.clear:active {
+  background: #b42c2c
 }
